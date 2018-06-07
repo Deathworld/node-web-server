@@ -14,7 +14,6 @@ pubspec.lock
 modules/.settings
 .bazelrc
 .vscode
-modules/.vscode
 
 # Don't check in secret files
 *secret.js
@@ -28,8 +27,11 @@ yarn-error.log
 
 # rollup-test output
 /modules/rollup-test/dist/
+
+
 # User-specific stuff
-.idea/**/workspace.xml
+.idea/workspace.xml
+.idea/vcs.xml
 .idea/**/tasks.xml
 .idea/**/dictionaries
 .idea/**/shelf
